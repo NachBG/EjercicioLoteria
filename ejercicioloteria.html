@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title> </title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+for( i=0; i < 50; i++){
+
+const n = 49;
+const arr = new Array(n);
+
+for (let i = 0; i < n; i++) {
+    arr[i] = i + 1;
+}
+
+arr.sort(() => Math.random() > 0.5 ? 1 : -1);
+var loteria = arr.slice(0, 6);
+
+
+console.log(loteria);
+}
+ </script>
+
+</body>
+</html>
